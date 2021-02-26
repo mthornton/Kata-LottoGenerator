@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEA2B50A25E9906900515EF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA2B50925E9906900515EF1 /* AppDelegate.swift */; };
+		BEA2B50C25E9906900515EF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA2B50B25E9906900515EF1 /* SceneDelegate.swift */; };
+		BEA2B50E25E9906900515EF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA2B50D25E9906900515EF1 /* ViewController.swift */; };
+		BEA2B51125E9906900515EF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA2B50F25E9906900515EF1 /* Main.storyboard */; };
+		BEA2B51325E9906B00515EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA2B51225E9906B00515EF1 /* Assets.xcassets */; };
+		BEA2B51625E9906B00515EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA2B51425E9906B00515EF1 /* LaunchScreen.storyboard */; };
+		BEA2B52125E9906B00515EF1 /* Kata_LottoGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA2B52025E9906B00515EF1 /* Kata_LottoGeneratorTests.swift */; };
+		BEA2B52C25E9906B00515EF1 /* Kata_LottoGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA2B52B25E9906B00515EF1 /* Kata_LottoGeneratorUITests.swift */; };
+		BEA2B53D25E9908800515EF1 /* Lotto.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA2B53C25E9908800515EF1 /* Lotto.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEA2B51D25E9906B00515EF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA2B4FE25E9906900515EF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA2B50525E9906900515EF1;
+			remoteInfo = "Kata-LottoGenerator";
+		};
+		BEA2B52825E9906B00515EF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA2B4FE25E9906900515EF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA2B50525E9906900515EF1;
+			remoteInfo = "Kata-LottoGenerator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEA2B50625E9906900515EF1 /* Kata-LottoGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kata-LottoGenerator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA2B50925E9906900515EF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEA2B50B25E9906900515EF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEA2B50D25E9906900515EF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEA2B51025E9906900515EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEA2B51225E9906B00515EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEA2B51525E9906B00515EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEA2B51725E9906B00515EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA2B51C25E9906B00515EF1 /* Kata-LottoGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kata-LottoGeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA2B52025E9906B00515EF1 /* Kata_LottoGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kata_LottoGeneratorTests.swift; sourceTree = "<group>"; };
+		BEA2B52225E9906B00515EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA2B52725E9906B00515EF1 /* Kata-LottoGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kata-LottoGeneratorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA2B52B25E9906B00515EF1 /* Kata_LottoGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kata_LottoGeneratorUITests.swift; sourceTree = "<group>"; };
+		BEA2B52D25E9906B00515EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA2B53C25E9908800515EF1 /* Lotto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotto.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEA2B50325E9906900515EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA2B51925E9906B00515EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA2B52425E9906B00515EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEA2B4FD25E9906900515EF1 = {
+			isa = PBXGroup;
+			children = (
+				BEA2B50825E9906900515EF1 /* Kata-LottoGenerator */,
+				BEA2B51F25E9906B00515EF1 /* Kata-LottoGeneratorTests */,
+				BEA2B52A25E9906B00515EF1 /* Kata-LottoGeneratorUITests */,
+				BEA2B50725E9906900515EF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEA2B50725E9906900515EF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEA2B50625E9906900515EF1 /* Kata-LottoGenerator.app */,
+				BEA2B51C25E9906B00515EF1 /* Kata-LottoGeneratorTests.xctest */,
+				BEA2B52725E9906B00515EF1 /* Kata-LottoGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEA2B50825E9906900515EF1 /* Kata-LottoGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				BEA2B50925E9906900515EF1 /* AppDelegate.swift */,
+				BEA2B50B25E9906900515EF1 /* SceneDelegate.swift */,
+				BEA2B50D25E9906900515EF1 /* ViewController.swift */,
+				BEA2B50F25E9906900515EF1 /* Main.storyboard */,
+				BEA2B51225E9906B00515EF1 /* Assets.xcassets */,
+				BEA2B51425E9906B00515EF1 /* LaunchScreen.storyboard */,
+				BEA2B51725E9906B00515EF1 /* Info.plist */,
+				BEA2B53C25E9908800515EF1 /* Lotto.swift */,
+			);
+			path = "Kata-LottoGenerator";
+			sourceTree = "<group>";
+		};
+		BEA2B51F25E9906B00515EF1 /* Kata-LottoGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA2B52025E9906B00515EF1 /* Kata_LottoGeneratorTests.swift */,
+				BEA2B52225E9906B00515EF1 /* Info.plist */,
+			);
+			path = "Kata-LottoGeneratorTests";
+			sourceTree = "<group>";
+		};
+		BEA2B52A25E9906B00515EF1 /* Kata-LottoGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA2B52B25E9906B00515EF1 /* Kata_LottoGeneratorUITests.swift */,
+				BEA2B52D25E9906B00515EF1 /* Info.plist */,
+			);
+			path = "Kata-LottoGeneratorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEA2B50525E9906900515EF1 /* Kata-LottoGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA2B53025E9906B00515EF1 /* Build configuration list for PBXNativeTarget "Kata-LottoGenerator" */;
+			buildPhases = (
+				BEA2B50225E9906900515EF1 /* Sources */,
+				BEA2B50325E9906900515EF1 /* Frameworks */,
+				BEA2B50425E9906900515EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kata-LottoGenerator";
+			productName = "Kata-LottoGenerator";
+			productReference = BEA2B50625E9906900515EF1 /* Kata-LottoGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEA2B51B25E9906B00515EF1 /* Kata-LottoGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA2B53325E9906B00515EF1 /* Build configuration list for PBXNativeTarget "Kata-LottoGeneratorTests" */;
+			buildPhases = (
+				BEA2B51825E9906B00515EF1 /* Sources */,
+				BEA2B51925E9906B00515EF1 /* Frameworks */,
+				BEA2B51A25E9906B00515EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA2B51E25E9906B00515EF1 /* PBXTargetDependency */,
+			);
+			name = "Kata-LottoGeneratorTests";
+			productName = "Kata-LottoGeneratorTests";
+			productReference = BEA2B51C25E9906B00515EF1 /* Kata-LottoGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEA2B52625E9906B00515EF1 /* Kata-LottoGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA2B53625E9906B00515EF1 /* Build configuration list for PBXNativeTarget "Kata-LottoGeneratorUITests" */;
+			buildPhases = (
+				BEA2B52325E9906B00515EF1 /* Sources */,
+				BEA2B52425E9906B00515EF1 /* Frameworks */,
+				BEA2B52525E9906B00515EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA2B52925E9906B00515EF1 /* PBXTargetDependency */,
+			);
+			name = "Kata-LottoGeneratorUITests";
+			productName = "Kata-LottoGeneratorUITests";
+			productReference = BEA2B52725E9906B00515EF1 /* Kata-LottoGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEA2B4FE25E9906900515EF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BEA2B50525E9906900515EF1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BEA2B51B25E9906B00515EF1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BEA2B50525E9906900515EF1;
+					};
+					BEA2B52625E9906B00515EF1 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BEA2B50525E9906900515EF1;
+					};
+				};
+			};
+			buildConfigurationList = BEA2B50125E9906900515EF1 /* Build configuration list for PBXProject "Kata-LottoGenerator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEA2B4FD25E9906900515EF1;
+			productRefGroup = BEA2B50725E9906900515EF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEA2B50525E9906900515EF1 /* Kata-LottoGenerator */,
+				BEA2B51B25E9906B00515EF1 /* Kata-LottoGeneratorTests */,
+				BEA2B52625E9906B00515EF1 /* Kata-LottoGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEA2B50425E9906900515EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA2B51625E9906B00515EF1 /* LaunchScreen.storyboard in Resources */,
+				BEA2B51325E9906B00515EF1 /* Assets.xcassets in Resources */,
+				BEA2B51125E9906900515EF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA2B51A25E9906B00515EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA2B52525E9906B00515EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEA2B50225E9906900515EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA2B53D25E9908800515EF1 /* Lotto.swift in Sources */,
+				BEA2B50E25E9906900515EF1 /* ViewController.swift in Sources */,
+				BEA2B50A25E9906900515EF1 /* AppDelegate.swift in Sources */,
+				BEA2B50C25E9906900515EF1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA2B51825E9906B00515EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA2B52125E9906B00515EF1 /* Kata_LottoGeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA2B52325E9906B00515EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA2B52C25E9906B00515EF1 /* Kata_LottoGeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEA2B51E25E9906B00515EF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA2B50525E9906900515EF1 /* Kata-LottoGenerator */;
+			targetProxy = BEA2B51D25E9906B00515EF1 /* PBXContainerItemProxy */;
+		};
+		BEA2B52925E9906B00515EF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA2B50525E9906900515EF1 /* Kata-LottoGenerator */;
+			targetProxy = BEA2B52825E9906B00515EF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEA2B50F25E9906900515EF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA2B51025E9906900515EF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEA2B51425E9906B00515EF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA2B51525E9906B00515EF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEA2B52E25E9906B00515EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEA2B52F25E9906B00515EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEA2B53125E9906B00515EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUF4WKFYV4;
+				INFOPLIST_FILE = "Kata-LottoGenerator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mojomolo.Kata-LottoGenerator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEA2B53225E9906B00515EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUF4WKFYV4;
+				INFOPLIST_FILE = "Kata-LottoGenerator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mojomolo.Kata-LottoGenerator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEA2B53425E9906B00515EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUF4WKFYV4;
+				INFOPLIST_FILE = "Kata-LottoGeneratorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mojomolo.Kata-LottoGeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kata-LottoGenerator.app/Kata-LottoGenerator";
+			};
+			name = Debug;
+		};
+		BEA2B53525E9906B00515EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUF4WKFYV4;
+				INFOPLIST_FILE = "Kata-LottoGeneratorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mojomolo.Kata-LottoGeneratorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kata-LottoGenerator.app/Kata-LottoGenerator";
+			};
+			name = Release;
+		};
+		BEA2B53725E9906B00515EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUF4WKFYV4;
+				INFOPLIST_FILE = "Kata-LottoGeneratorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mojomolo.Kata-LottoGeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kata-LottoGenerator";
+			};
+			name = Debug;
+		};
+		BEA2B53825E9906B00515EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AUF4WKFYV4;
+				INFOPLIST_FILE = "Kata-LottoGeneratorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mojomolo.Kata-LottoGeneratorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kata-LottoGenerator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEA2B50125E9906900515EF1 /* Build configuration list for PBXProject "Kata-LottoGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA2B52E25E9906B00515EF1 /* Debug */,
+				BEA2B52F25E9906B00515EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA2B53025E9906B00515EF1 /* Build configuration list for PBXNativeTarget "Kata-LottoGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA2B53125E9906B00515EF1 /* Debug */,
+				BEA2B53225E9906B00515EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA2B53325E9906B00515EF1 /* Build configuration list for PBXNativeTarget "Kata-LottoGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA2B53425E9906B00515EF1 /* Debug */,
+				BEA2B53525E9906B00515EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA2B53625E9906B00515EF1 /* Build configuration list for PBXNativeTarget "Kata-LottoGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA2B53725E9906B00515EF1 /* Debug */,
+				BEA2B53825E9906B00515EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEA2B4FE25E9906900515EF1 /* Project object */;
+}
